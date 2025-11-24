@@ -2,7 +2,7 @@
 
 A modern, full-stack book-selling web app built with **Next.js**, **MongoDB**, and **Prisma**. It includes full user authentication, and secure API routes. Designed to be clean, scalable, and ideal for real-world deployment.
 
-🔗 [GitHub Repository](https://github.com/Aathil1681/online-book-store)
+🔗 [GitHub Repository](https://github.com/SAHFEERULWASIHF/online-book-store)
 
 ---
 
