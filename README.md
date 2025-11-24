@@ -50,6 +50,7 @@ A modern, full-stack book-selling web app built with **Next.js**, **MongoDB**, a
 
 ## 📁 Project Structure
 
+```
 /online-book-store
 ├── app # Next.js 13 app directory
 │ ├── api # API route handlers (auth, books, cart, etc.)
@@ -63,7 +64,7 @@ A modern, full-stack book-selling web app built with **Next.js**, **MongoDB**, a
 ├── .env.sample # Example env for contributors
 ├── package.json # Scripts and dependencies
 └── README.md # Project docs
-
+```
 ---
 
 
@@ -74,34 +75,40 @@ A modern, full-stack book-selling web app built with **Next.js**, **MongoDB**, a
 ```bash
 git clone https://github.com/Aathil1681/online-book-store.git
 cd online-book-store
-
+```
 2. Install Dependencies
-  npm install
+ ``` npm install```
   
 3. Setup Environment Variables
 Create a .env file in the root and add the following:
 
-env
+```env
 DATABASE_URL="your_mongodb_connection_string"
 JWT_SECRET="your_jwt_secret"
 NEXT_PUBLIC_API_BASE_URL=http://localhost:3000/api
 NEXT_PUBLIC_HOST_URL=http://localhost:3000
+```
 Or use the included .env.sample to guide setup.
 
 4. Push Prisma Schema
 
+   ```
    npx prisma db push
+   ```
 
 5. Run the Dev Server
 
+  ```
    npm run dev
-
+```
 
 🚀 Deployment
 To deploy in production:
 
+```
 npm run build
 npm start
+```
 Recommend platforms: Vercel, Render, DigitalOcean, or Heroku.
 
 🤝 Contributing
@@ -116,4 +123,4 @@ Commit your changes
 Push and open a Pull Request
 
 📄 License
-MIT License. Built with ❤️ by Aathil Ihlaas
+MIT License. Built with ❤️ by SAHFEERUL WASIHF
